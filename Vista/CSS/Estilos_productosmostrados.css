@@ -1,0 +1,87 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-flow: row;
+    background: rgba(248, 190, 0, 0.096);
+}
+
+title {
+    font-size: 8px;
+    visibility: hidden;
+}
+
+h1 {
+    font-size: 13px;
+}
+
+h3 {
+    font-size: 12px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-bottom: 200px;
+    margin-left: 50px;
+}
+
+p {
+    font-size: 12px;
+    width: 27%;
+    height: 160px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgba(248, 190, 0, 0.4);
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 1px 2px 2px black;
+}
+
+.producto {
+    font-size: 12px;
+    width: 65%;
+    margin-left: 2%;
+    background: rgba(248, 149, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-flow: column;
+    padding-left: 10px;
+    column-gap: 8px;
+    border-style: solid;
+    border: 1px;
+    border-color: black;
+    box-shadow: 1px 2px 2px black;
+}
+
+.categoria {
+    font-size: 12px;
+    width: 65%;
+    margin-left: 2%;
+    background: rgba(248, 149, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-flow: column;
+    column-gap: 12px;
+    border-style: solid;
+    border: 1px;
+    border-color: black;
+    box-shadow: 1px 2px 2px black;
+}
+
+.arrow {
+    font-size: 12px;
+    width: 5%;
+    margin-left: 2%;
+    padding-right: 10px;
+    background: rgba(170, 102, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-flow: column;
+    column-gap: 12px;
+}

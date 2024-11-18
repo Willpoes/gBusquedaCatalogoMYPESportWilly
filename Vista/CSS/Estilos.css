@@ -1,0 +1,886 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #F44336;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    background: #E83A14;
+}
+
+#boton-login #botonEnviar {
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color: #fff;
+    width: 6em;
+    height: 40px;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #630606;
+    box-shadow: 0px 0px 13px 3px rgba(26, 25, 25, 0.5);
+}
+
+#boton-login #botonEnviar:hover {
+    background-color: #E83A14;
+    color: #fff;
+}
+
+#formularioContacto .botonenviar {
+    font-family: Overpass, sans-serif;
+    font-size: 120%;
+    color: #fff;
+}
+
+form .botonenviar {
+    font-family: "Lato", sans-serif;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #E83A14;
+    border-color: #373636;
+    border-radius: 5px;
+    color: #fff;
+    font-style: bold;
+}
+
+form .botonenviar:hover {
+    font-family: "Lato", sans-serif;
+    background-color: #f78e04;
+    color: #373636;
+}
+
+
+/*MENU*/
+
+
+/* -------------------------------------- */
+
+.wrap {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+}
+
+ul.tabs {
+    width: 100%;
+    background: #F44336;
+    border: 1px solid #F44336;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .8);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+ul.tabs li {
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, .8);
+    width: 15%;
+}
+
+ul.tabs li:hover {
+    background-color: rgb(255, 136, 0);
+}
+
+ul.tabs li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+}
+
+
+/*----------------------------------------------*/
+
+.banner {
+    width: 10%;
+    height: 50px;
+    margin-top: 2.5px;
+    margin-left: 1px;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+
+
+/* SECCION BUSCADOR INICIO*/
+
+.buscador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscador a {
+    color: #000;
+}
+
+.boton-busqueda-inicio {
+    font-size: 12px;
+    width: 80px;
+    padding: 8px;
+    margin-right: 10px;
+    background-color: rgb(255, 136, 0);
+    border-color: #c42e24;
+}
+
+.boton-busqueda-inicio:hover {
+    cursor: pointer;
+    background-color: #c42e24;
+}
+
+.buscador input {
+    border: none;
+    height: 30px;
+    width: 60%;
+}
+
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+
+
+/* BIENVENIDA */
+
+.cuerpo-inicio {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-bienvenida {
+    width: 65%;
+    padding: 10px;
+}
+
+.cuerpo-inicio2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#cuadro1 {
+    color: white;
+    padding: 10px;
+}
+
+#cuadro2 {
+    color: white;
+    padding: 10px;
+}
+
+.imagen-bienvenida2 {
+    float: left;
+    object-fit: cover;
+    border: 1px solid;
+    width: 100%;
+    height: 250px;
+    margin-right: 5%;
+}
+
+.imagen-bienvenida3 {
+    float: left;
+    object-fit: cover;
+    border: 1px solid;
+    width: 100%;
+    height: 250px;
+    margin-right: 5%;
+}
+
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+
+
+/* PRODUCTOS */
+
+.contenido-pag-productos {
+    margin: 5px;
+}
+
+.categoria-producto {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-pag-productos .categoria-producto .boton-categoria-productos {
+    font-family: "Montserrat", sans-serif;
+    width: 180px;
+    padding: 18px;
+    font-size: 10px;
+    background-color: #F44336;
+    border-color: #c42e24;
+    color: #eee;
+}
+
+.contenido-pag-productos .categoria-producto .boton-categoria-activado {
+    background-color: #c07d00;
+}
+
+.contenido-pag-productos .categoria-producto .boton-categoria-productos:hover {
+    cursor: pointer;
+    background-color: rgb(255, 136, 0);
+    color: #000;
+}
+
+.lista-productos a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.boton-productos {
+    font-family: "Montserrat", sans-serif;
+    width: 180px;
+    padding: 24px;
+    background-color: #F44336;
+    border-color: #c42e24;
+    color: #eee;
+}
+
+.boton-productos:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.lista-productos {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+    row-gap: 140px;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 12%;
+    left: 43%;
+    transform: translateX(-50%);
+}
+
+.contenido-productos {
+    font-family: "Lato", sans-serif;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-nombreproductos {
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+    width: 120px;
+    padding: 2px;
+    border: 0px;
+    /*size, left and right*/
+    text-decoration: underline black;
+    color: black;
+}
+
+.boton-nombreproductos:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.banner-listaproductos {
+    width: 100px;
+    height: 48px;
+    margin-left: 1%;
+    object-fit: cover;
+    border: 1px solid;
+}
+
+.imagen-productos {
+    height: 70px;
+    width: 175px;
+    padding-right: 1%;
+    padding-left: 1%;
+    border: 1px solid;
+}
+
+.img-productos {
+    width: 140px;
+    height: 165px;
+    object-fit: cover;
+    margin-top: -110px;
+    border: 1px solid black;
+}
+
+
+/****** PRODUCTOS.CATEGORIAS ******/
+
+.contenido-pag-productos .categoria-producto .boton-categoria-productos {
+    font-family: "Montserrat", sans-serif;
+    width: 180px;
+    padding: 18px;
+    font-size: 10px;
+    background-color: #F44336;
+    border-color: #c42e24;
+    color: #eee;
+}
+
+.contenido-pag-productos .categoria-producto .boton-categoria-activado {
+    background-color: #c07d00;
+}
+
+.contenido-pag-productos .categoria-producto .boton-categoria-productos:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+
+/****** PRODUCTOS.CONTENIDO ******/
+
+.lista-productos .contenido-productos .img-productos {
+    width: 140px;
+    height: 165px;
+    object-fit: cover;
+    margin-top: -110px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+}
+
+
+/****** PRODUCTOS.VACIADO ******/
+
+.vaciar-productos {
+    display: none;
+}
+
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+
+
+/* SERVICIOS */
+
+.servicios {
+    color: #fff;
+    margin-left: 50px;
+}
+
+.contenido-servicios {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagen-servicios {
+    border: none;
+    padding: 5px;
+    width: 22%;
+}
+
+.descripcion {
+    margin: 50px;
+    width: 80%;
+}
+
+.descripcion h3,
+p {
+    color: #fff;
+}
+
+.descripcion h3 {
+    text-decoration: underline;
+}
+
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+
+
+/* CONTACTANOS */
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cuadro1-contacto {
+    height: 300px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#texto-contacto {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+#foto-contacto {
+    width: 190px;
+    height: 150px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#mapa-contacto {
+    width: 70%;
+    border: 0;
+    border-style: none;
+    opacity: 0.9;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.cuadro2-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulariocontacto {
+    width: 60%;
+    max-width: 60%;
+}
+
+#datoscontacto {
+    width: 40%;
+}
+
+#formularioContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 0px 0px 0px;
+    width: 50%;
+}
+
+#formularioContacto input,
+textarea {
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color: rgb(80, 80, 80);
+}
+
+#formularioContacto label {
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+}
+
+#formularioContacto input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#formularioContacto textarea {
+    border-radius: 10px;
+    border: none;
+}
+
+#datoscontacto h1,
+p {
+    font-family: 'Overpass', sans-serif;
+    color: #eee;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+#datoscontacto p {
+    font-size: 150%;
+}
+
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+
+
+/* NOSOTROS */
+
+.tituloTable {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: #ddd;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imagen-cuerpo {
+    width: 30%;
+    margin: 10px;
+}
+
+.descripcion-texto,
+.tituloo {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: #ddd;
+    text-align: justify;
+    padding: 2%;
+}
+
+.tituloo {
+    text-align: center;
+    font-size: 25px;
+}
+
+.imagen-tienda,
+.imagen-mapa {
+    width: 250px;
+    height: 150px;
+}
+
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+
+
+/* MANTENIMIENTO */
+
+#h1-mantenimiento {
+    font-size: 25px;
+    color: white;
+    margin: 2%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.datos-mantenimiento {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .8);
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.p1-mantenimiento {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: #5f0b04;
+    padding: 20px;
+}
+
+.tabla-mantenimiento {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#td-mantenimiento {
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+input {
+    font-size: 22px;
+}
+
+select {
+    width: 265px;
+    font-size: 22px;
+}
+
+.bot {
+    color: #5f0b04;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.bot2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.botones-mantenimiento {
+    text-align: center;
+}
+
+.imgMan {
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+    border-radius: 3%;
+}
+
+
+/* -------------------------------------- */
+
+
+/* -------------------------------------- */
+
+
+/* LOGIN */
+
+#body-login {
+    background-color: #F44336;
+    background-image: url('../img/imgLogin/fondo.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titulo-login h1 {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 100%;
+    font-style: normal;
+    font-size: 5rem;
+    text-shadow: 0px 8px 10px #000000;
+    padding: 0px 0px 20px 0px;
+}
+
+#contenedorlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulariologin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fffdfd53;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    max-width: 25%;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 13px 3px rgba(26, 25, 25, 0.8);
+}
+
+#logo-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+}
+
+#logo-login img {
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+#logintext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+}
+
+#logintext h2 {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    font-size: 35px;
+    font-style: normal;
+    text-shadow: 0px 0px 10px #030303;
+}
+
+#usuario-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    margin-bottom: 50px;
+}
+
+#usuario-login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    display: block;
+    width: 110%;
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 5px 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#usuario-login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #373636;
+}
+
+#boton-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ok {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #4e8;
+    color: #fff;
+}
+
+.bad {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #a22;
+    color: #fff;
+}
+
+
+/**-Administrador o CLiente-**/
+
+.form-container {
+    display: flex;
+    width: 800px;
+    height: 10px;
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    visibility: visible;
+    /**/
+    transition: opacity 1s;
+}
+
+.checking {
+    width: 30%;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.checking p {
+    color: rgb(2, 2, 2);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.checking label {
+    color: rgb(2, 2, 2);
+    font-family: 'Overpass', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.checking input[type="checkbox"] {
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 15px;
+    background-color: #eee;
+    /**/
+    outline: none;
+    border-radius: 20px;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .4);
+    transition: background-color .5s;
+}
+
+.checking input:checked[type="checkbox"] {
+    background-color: #cc683c;
+}
+
+.checking input[type="checkbox"]::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #aaa;
+    position: absolute;
+    border-radius: 85%;
+    left: -4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .8);
+    transition: left .5s;
+}
+
+.checking input:checked[type="checkbox"]::before {
+    left: 18px;
+}
+
+
+/*LOGIN-CHECKBOX -*/
+
+#pass {
+    opacity: 0;
+    visibility: hidden;
+}
